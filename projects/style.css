@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+padding: 0;
+  }
+  .main{
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+  }
+  .nav{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+  }
+  ul{
+    margin-top: -4%;
+  }
+  ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 16px;
+  }
+  ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: tomato;
+    margin-top: -3%;
+    transition: 4s ease;
+  }
+   ul li a:hover{
+    color: yellow;
+   }
+   .info{
+    margin-left: 6%;
+    margin-top: 7%;
+   }
+   .info h1{
+    font-size: 69px;
+    color: rgb(43, 39, 37);
+   }
+   .info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+   }
+   .info span{
+    color: rgb(230, 104, 59);
+   }
+   .info a{
+    text-decoration: none;
+    color: white;
+    background:rgb(40, 37, 35) ;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 2s ease;
+   }
+   .info a:hover{
+    color: rgb(42, 51, 55);
+    background-color: aqua;
+   }
+   .image{
+    width:30%;
+    height:60%;
+    position:absolute;
+    right: 100px;
+    bottom: 0;
+   }
+   .image .girl{
+    position: absolute;
+    height: 140%;
+    left: -40%;
+    transform: translate(-50);
+    bottom:0;
+    transition:left 2s ease;
+   }
+   .image:hover .girl{
+    left:15%;
+   }
+   .icon a{
+    text-decoration: none;
+    color: rgb(30, 26, 26);
+   }
+   .icon ion-icon{
+    margin-left: 7%;
+    color: rgb(15, 14, 13);
+    margin-right: -60px;
+    font-size: 40px;
+    transition: 2s ease;
+   }
+   .icon ion-icon:hover{
+    color: rgb(51, 212, 248);
+   }
